@@ -6,12 +6,11 @@ library(readxl)
 library(lubridate)
 library(tidyr)
 
+# Load in our csv
+# every row is a Census tract in Texas
+input_csv <- read_csv("output/tx_tracts_scores.csv")
 
 createCityTables <- function(){
-  # Load in our csv
-  # every row is a Census tract in Texas
-  input_csv <- read_csv("output/tx_tracts_scores.csv")
-  
   # Add a new column called 'above_below'
   # That is used to tract whether tracts are above or below
   # the national average of 20.7
@@ -64,3 +63,14 @@ createCityTables <- function(){
 }
 
 createCityTables()
+
+
+# Find out how many census tracts are in each county
+censusTractsCounty <- function() {
+  tracts_county <- input_csv %>%
+    group_by(County_name) %>%
+    summarize(count = n())
+  
+  write_csv(tracts_county, "output/tx_tracts_per_county.csv")
+}
+censusTractsCounty()
