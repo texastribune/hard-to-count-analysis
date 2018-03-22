@@ -1,0 +1,29 @@
+<OGRVRTDataSource>
+
+<OGRVRTLayer name='cb_2016_us_ua10_500k'>
+<SrcDataSource>cb_2016_us_ua10_500k.shp</SrcDataSource>
+</OGRVRTLayer>
+<OGRVRTLayer name='tl_2016_48_tract'>
+<SrcDataSource>tl_2016_48_tract.shp</SrcDataSource>
+</OGRVRTLayer>
+
+<OGRVRTLayer name="a_tx_urban_tracts_all">
+<SrcDataSource>a_tx_urban_tracts_all.shp</SrcDataSource>
+</OGRVRTLayer>
+<OGRVRTLayer name="b_tx_urban_tracts_major">
+<SrcDataSource>b_tx_urban_tracts_major.shp</SrcDataSource>
+</OGRVRTLayer>
+<OGRVRTLayer name='c_tx_tracts_filter'>
+<SrcDataSource>c_tx_tracts_filter.shp</SrcDataSource>
+</OGRVRTLayer>
+<OGRVRTLayer name='d_tx_urban_tracts'>
+<SrcDataSource>d_tx_urban_tracts.shp</SrcDataSource>
+</OGRVRTLayer>
+<OGRVRTLayer name='e_tx_all_tracts_urban'>
+<SrcDataSource>e_tx_all_tracts_urban.shp</SrcDataSource>
+</OGRVRTLayer>
+<OGRVRTLayer name='f_tx_all_tracts_urban_scores'>
+<SrcDataSource>f_tx_all_tracts_urban_scores.shp</SrcDataSource>
+</OGRVRTLayer>
+
+</OGRVRTDataSource>
