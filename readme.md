@@ -8,14 +8,14 @@ With this data, we first filtered out just Texas. We then downloaded [census tra
 
 We then downloaded [urban area shapefiles](https://www.census.gov/geo/maps-data/data/cbf/cbf_ua.html) and filtered out the 25 most-populous urban areas in Texas. We then ran a query using [ogr2ogr](http://www.gdal.org/ogr2ogr.html) to find all the census tracts that intersect with those 25 urban areas. This allowed us to find the census tracts in those urban areas and create the urban area dropdown in the first chart.
 
-After the merge, we exported the results as a CSV, which was used to make the [D3 charts](https://github.com/d3/d3).
+After the merge, we exported the results as a CSV, which was used to make the [D3 charts](https://github.com/d3/d3). This is located in the output folder.
 
 The code for these tasks can be found here:
 
   * process.sh
 
 
-To help with the descriptions for these charts, we determined the percentage of Hispanic residents and poor residents who live in census tracts where the low response score is above the national average. We did this for the state of Texas, as well as Houston and Austin. We exported the results as a CSV.
+To help with the descriptions for these charts, we determined the percentage of Hispanic residents and poor residents who live in census tracts where the low response score is above the national average. We did this for the state of Texas, as well as Houston and Austin. We exported the results as a CSV to the output folder.
 
 The code for these tasks can be found here:
 
