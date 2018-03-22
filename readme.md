@@ -17,6 +17,8 @@ The code for these tasks can be found here:
 
 To help with the descriptions for these charts, we determined the percentage of Hispanic residents and poor residents who live in census tracts where the low response score is above the national average. We did this for the state of Texas, as well as Houston and Austin. We exported the results as a CSV to the output folder.
 
+We also determined how many cenus tracts are in each county for the chart's tooltip and exported those results as a CSV.
+
 The code for these tasks can be found here:
 
   * analysis.r
