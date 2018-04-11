@@ -1,6 +1,6 @@
 # Hard to count analysis
 
-This repository includes the code we ran to get the data for our [hard to count story](https://moose.texastribune.org/hard-to-count/).
+This repository includes the code we ran to get the data for our [hard to count story](https://apps.texastribune.org/texas-census-2020-hard-to-count/).
 
 The raw data is made available by the [U.S. Census](https://www.census.gov/roam), which releases low response scores for each tract in the United States. The scores are based on the likelihood of those living within a census tract will not respond to mailed questionnaires. The national average is [20.7](https://www2.census.gov/geo/pdfs/maps-data/maps/roam/ROAM_User_Guide.pdf). Scores in Texas range from 0 to 45.
 
